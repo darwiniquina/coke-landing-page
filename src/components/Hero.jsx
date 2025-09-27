@@ -64,8 +64,8 @@ function Hero() {
                     ease: "none",
                 },
                 {
-                    y: "180vh",
-                    x: "30vw",
+                    y: "220vh",
+                    x: "40vw",
                     scale: 1,
                     rotate: "-30deg",
                     ease: "none",
@@ -80,7 +80,7 @@ function Hero() {
             <div className="relative first h-screen bg-gradient-to-b from-red-600 via-red-500 to-red-700 flex flex-col items-center justify-center px-6 text-center">
 
                 <h1 className="hero-message z-2 relative text-[clamp(3rem,10vw,12rem)] montserrat-bold text-white leading-none">
-                    Coca Cola
+                    Coca-Cola
                 </h1>
 
                 <div className="hero-sub-message">

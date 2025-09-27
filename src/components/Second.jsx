@@ -5,8 +5,6 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
-
-
 const Second = () => {
     useGSAP(() => {
         let mm = gsap.matchMedia();
@@ -18,7 +16,6 @@ const Second = () => {
                     start: "20% bottom",
                     end: "bottom bottom",
                     scrub: true,
-                    markers: true,
                     ease: "power4.inOut",
                 },
             });
@@ -39,7 +36,6 @@ const Second = () => {
                     start: "20% bottom",
                     end: "bottom bottom",
                     scrub: true,
-                    markers: true,
                 },
             });
 
@@ -72,7 +68,7 @@ const Second = () => {
                 <img
                     src="images/second.webp"
                     alt="soda"
-                    className="rounded-4xl object-contain md:h-[70%] w-auto shadow-lg rotate-[3deg] md:rotate-[-6deg]"
+                    className="rounded-4xl object-contain md:h-[70%] w-auto shadow-lg rotate-[3deg] md:rotate-[6deg]"
                 />
             </div>
         </div>
