@@ -25,7 +25,6 @@ function Hero() {
                 end: "bottom bottom",
                 endTrigger: ".third",
                 pin: ".soda",
-                markers: true,
             });
 
             const tl1 = gsap.timeline({
@@ -38,9 +37,10 @@ function Hero() {
             });
 
             tl1.to(".soda", {
-                y: "100vh",
-                x: "-30vw",
-                rotate: "50deg",
+                y: "120vh",
+                x: "-45vw",
+                scale: 0.7,
+                rotate: "40deg",
                 ease: "none",
             });
 
@@ -50,7 +50,6 @@ function Hero() {
                     start: "start 100%",
                     end: "50% 50%",
                     scrub: true,
-                    markers: true,
                 },
             });
 
@@ -58,13 +57,16 @@ function Hero() {
             tl2.fromTo(
                 ".soda",
                 {
-                    y: "100vh",
-                    x: "-30vw",
-                    rotate: "50deg",
+                    y: "120vh",
+                    x: "-45vw",
+                    scale: 0.7,
+                    rotate: "40deg",
+                    ease: "none",
                 },
                 {
-                    y: "200vh",
+                    y: "180vh",
                     x: "30vw",
+                    scale: 1,
                     rotate: "-30deg",
                     ease: "none",
                 }
@@ -77,23 +79,23 @@ function Hero() {
         <>
             <div className="relative first h-screen bg-gradient-to-b from-red-600 via-red-500 to-red-700 flex flex-col items-center justify-center px-6 text-center">
 
-                <h1 className="hero-message z-2 relative text-[clamp(3rem,10vw,12rem)] font-['MontserratExtraBold',_sans-serif] text-white leading-none">
+                <h1 className="hero-message z-2 relative text-[clamp(3rem,10vw,12rem)] montserrat-bold text-white leading-none">
                     Coca Cola
                 </h1>
 
                 <div className="hero-sub-message">
-                    <p className="z-3 mt-0 font-['arial'] text-white text-xl md:text-2xl font-light tracking-wide">
+                    <p className="z-3 mt-0 montserrat text-white text-xl md:text-2xl font-light tracking-wide">
                         “Open Happiness” since 1886
                     </p>
 
-                    <p className="mt-1 mb-5 z-2 font-['arial'] text-white/90 max-w-lg text-base md:text-lg">
+                    <p className="mt-1 mb-5 z-2 montserrat-italic text-white/90 max-w-lg text-base md:text-lg">
                         Refreshing the world, one sip at a time.
                     </p>
                 </div>
 
 
                 <img
-                    className="z-1 soda w-[100vw] max-w-[25rem] md:w-[30vw] md:max-w-[35rem]"
+                    className="z-3 soda w-[100vw] max-w-[25rem] md:w-[30vw] md:max-w-[35rem] "
                     src="images/coke.png"
                     alt="soda"
                 />

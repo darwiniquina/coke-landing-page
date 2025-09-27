@@ -3,22 +3,21 @@ import gsap from "gsap";
 
 function Navigation() {
     useGSAP(() => {
-        gsap.from(".nav-bar", {
-            opacity: 0,
-            y: -50,
-            ease: "power1.in",
-        });
-
         gsap.to(".nav-bar", {
             scrollTrigger: {
                 trigger: "#smooth-content",
                 start: "top top",
-                end: "200 top",
+                end: "20% top",
                 scrub: true,
             },
             opacity: 0,
-            y: -50,
             ease: "power1.out",
+        });
+
+        gsap.from(".nav-bar", {
+            opacity: 0,
+            y: -50,
+            ease: "power1.in",
         });
     });
 
@@ -26,7 +25,7 @@ function Navigation() {
         <nav className="nav-bar fixed top-0 left-0 w-full z-50 bg-gradient-to-b from-black/80 to-transparent px-6 py-4 flex justify-between items-center text-white">
             {/* Logo */}
             <div className="text-xl font-bold tracking-wide">
-                <img src="https://www.coca-cola.com/content/dam/onexp/global/icons/Coke-company-logo-black.svg" alt="logo" class="invert brightness-0" />
+                <img src="https://www.coca-cola.com/content/dam/onexp/global/icons/Coke-company-logo-black.svg" alt="logo" className="invert brightness-0" />
             </div>
 
             {/* Desktop links */}
