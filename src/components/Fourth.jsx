@@ -24,19 +24,15 @@ const Fourth = () => {
                 start: "40% 80%",
                 end: "bottom bottom",
                 scrub: true,
-                scrubEase: "power1.inOut",
             },
         })
 
         tl.from(splitTitle.chars, {
             opacity: 0,
             y: 50,
-            rotationX: 90,
-            rotationY: 90,
-            transformOrigin: "50% 50% -50",
-            stagger: 0.05,
-            duration: 0.8,
-            ease: "back.inOut",
+            x: -10,
+            stagger: 1,
+            ease: "power2.out",
         });
 
         tl.from(splitSubTitle.chars, {
@@ -47,21 +43,19 @@ const Fourth = () => {
             ease: "power2.out",
         });
 
-
-
     })
 
     return (
-        <div className="fourth h-screen bg-yellow-500 flex flex-col items-center justify-center px-8 text-center">
-            <h2 className="text-[clamp(2rem,6vw,5rem)] font-bold mb-4">
+        <div className=" fourth h-screen bg-yellow-500 flex flex-col items-center justify-center px-8 text-center">
+            <h2 className="montserrat-bold text-[clamp(2rem,6vw,5rem)] font-bold mb-4">
                 More Than a Drink
             </h2>
-            <p className="max-w-2xl text-lg md:text-xl leading-relaxed mb-6">
+            <p className="montserrat max-w-2xl text-lg md:text-xl leading-relaxed mb-6">
                 Coca-Cola has fueled moments of joy at concerts, movies, and
                 family gatherings. It’s more than just a beverage — it’s a
                 <span className="font-semibold">shared experience</span>.
             </p>
-            <p className="italic text-black/70">
+            <p className="montserrat-italic text-black/70">
                 “Share a Coke, share a smile.”
             </p>
         </div>

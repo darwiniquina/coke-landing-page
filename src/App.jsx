@@ -7,7 +7,7 @@ import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
 import Second from "./components/Second";
 import Third from "./components/Third";
-import Slider from "./components/Slider";
+import Slider from "./components/OtherBrands";
 import Fourth from "./components/Fourth";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
