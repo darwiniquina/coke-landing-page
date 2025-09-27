@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'MontserratExtraBold';
+  src: url('/fonts/MontserratExtraBold.otf') format('truetype');
+}
