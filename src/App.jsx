@@ -8,6 +8,7 @@ import Hero from "./components/Hero";
 import Second from "./components/Second";
 import Third from "./components/Third";
 import Slider from "./components/Slider";
+import Fourth from "./components/Fourth";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
@@ -33,6 +34,7 @@ function App() {
           <Hero />
           <Second />
           <Third />
+          <Fourth />
           <Slider />
         </div>
       </div>
