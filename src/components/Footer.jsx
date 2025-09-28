@@ -19,6 +19,7 @@ function Footer() {
             <div className="border-t border-gray-700 mt-6 pt-4 text-center text-xs text-gray-500">
                 <p>
                     © {new Date().getFullYear()} The Coca-Cola Company (Brand).
+                    All trademarks, logos, and assets belong to The Coca-Cola Company.
                     This is a fan-made site built with React & GSAP for educational and portfolio purposes only.
                 </p>
                 <p className="mt-1">Created by Darwin Iquina</p>
