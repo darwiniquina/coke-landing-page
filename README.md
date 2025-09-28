@@ -1,16 +1,48 @@
-# React + Vite
+# Coca-Cola Landing Page (Fan-Made)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A recreation of the Coca-Cola landing page built with React, GSAP, and Swiper.js for smooth animations and interactions.  
+This project is for educational and portfolio purposes only.
 
-Currently, two official plugins are available:
+[Live Preview on Vercel](https://vercel.com/darwiniquinas-projects/coke-landing-page)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Preview
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<img width="2530" height="1413" alt="image" src="https://github.com/user-attachments/assets/4baa4641-ab5b-48bc-9e42-79d091a3ef82" />
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React – UI framework  
+- GSAP – animation and scroll-based effects  
+- Swiper.js – responsive carousel/slider  
+- Tailwind CSS – utility-first styling  
+
+---
+
+## Features
+
+- Smooth scroll animations powered by GSAP + ScrollTrigger  
+- Responsive design with Tailwind  
+- Split-text animations for engaging typography  
+- Interactive product slider with Swiper.js  
+- Optimized for both desktop and mobile  
+
+---
+
+## Disclaimer
+
+This is a fan-made project.  
+All trademarks, logos, and brand assets belong to The Coca-Cola Company.  
+
+This site is recreated with React and GSAP for educational and portfolio purposes only.  
+Original Coca-Cola site: [https://www.coca-cola.com/ph/en](https://www.coca-cola.com/ph/en)
+
+---
+
+## Author
+
+Created by Darwin Iquina  
+Feel free to reach out for collaborations or projects.
