@@ -22,7 +22,7 @@ const Fourth = () => {
             scrollTrigger: {
                 trigger: ".fourth",
                 start: "40% 80%",
-                end: "bottom bottom",
+                end: "90% bottom",
                 scrub: true,
             },
         })
@@ -46,7 +46,7 @@ const Fourth = () => {
     })
 
     return (
-        <div className=" fourth h-screen bg-yellow-500 flex flex-col items-center justify-center px-8 text-center">
+        <div className=" fourth h-screen bg-white flex flex-col items-center justify-center px-8 text-center">
             <h2 className="montserrat-bold text-[clamp(2rem,6vw,5rem)] font-bold mb-4">
                 More Than a Drink
             </h2>
