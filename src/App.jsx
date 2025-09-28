@@ -9,12 +9,12 @@ import Second from "./components/Second";
 import Third from "./components/Third";
 import Slider from "./components/OtherBrands";
 import Fourth from "./components/Fourth";
+import Footer from "./components/Footer";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 function App() {
   useGSAP(() => {
-
     ScrollSmoother.create({
       wrapper: "#smooth-wrapper",
       content: "#smooth-content",
@@ -36,6 +36,7 @@ function App() {
           <Third />
           <Fourth />
           <Slider />
+          <Footer />
         </div>
       </div>
     </>

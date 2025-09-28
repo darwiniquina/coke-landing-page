@@ -30,7 +30,6 @@ function Hero() {
                 rotate: "360deg",
             });
 
-
             ScrollTrigger.create({
                 trigger: ".first",
                 start: "top top",

@@ -1,12 +1,9 @@
 
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { ScrollSmoother } from "gsap/ScrollSmoother";
 import { SplitText } from "gsap/SplitText";
 
-gsap.registerPlugin(SplitText, ScrollTrigger, ScrollSmoother);
-
+gsap.registerPlugin(SplitText);
 
 const Fourth = () => {
     useGSAP(() => {

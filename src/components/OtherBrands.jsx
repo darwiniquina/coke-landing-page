@@ -1,9 +1,7 @@
-import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay } from 'swiper/modules';
 import "swiper/css";
 import { brands } from "../../constants/index.js";
-
 
 const Slider = () => {
     return (
