@@ -3,7 +3,7 @@
 A recreation of the Coca-Cola landing page built with React, GSAP, and Swiper.js for smooth animations and interactions.  
 This project is for educational and portfolio purposes only.
 
-[Live Preview on Vercel](https://vercel.com/darwiniquinas-projects/coke-landing-page)
+[Live Preview on Vercel](https://coke-landing-page-theta.vercel.app/)
 
 ---
 
