@@ -100,14 +100,14 @@ function Hero() {
                     Refreshing the world one sip at a time. Experience the joy, taste the feeling, and connect with moments that matter.
                 </p>
 
-                <div className="hover:bg-neutral-100 hero-button cursor-pointer w-full border-1 border-black rounded-full p-2 md:p-4 text-center text-sm font-bold text-red-600 ">
+                <div className="hover:bg-neutral-100 hero-button cursor-pointer w-full border-1 border-black rounded-full p-2 md:p-4 text-center text-xs font-bold text-red-600 ">
                     Explore Products
                 </div>
             </div>
 
 
             <img
-                className="z-2 soda w-[100vw] md:w-[50rem]"
+                className="z-2 soda w-[100vw] md:w-[40vw]"
                 src="images/coke.png"
                 alt="soda"
             />
